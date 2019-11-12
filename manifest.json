@@ -1,0 +1,15 @@
+{
+	"name": "Emoji Replacer",
+	"version": "1.0",
+	"description": "Replace all emoji with the middle finger emoji",
+	"manifest_version": 2,
+	"icons": {
+		"128": "emoji_replacer_icon.png"
+	},
+	"permissions": ["activeTab"],
+	"content_scripts": [
+		{
+		"js": ["content.js"]
+		}
+	]
+}
